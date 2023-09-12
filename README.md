@@ -17,6 +17,8 @@ Data used: [QA Dataset - Kaggle](https://www.kaggle.com/datasets/rtatman/questio
 <br>
 Using pretrain model [paraphrase-albert-small-v2](https://huggingface.co/sentence-transformers/paraphrase-albert-small-v2) along with [Sentences Transformer](https://www.sbert.net)
 <br>
+Deploy model and create web app using Flask and SocketIO. (I followed the tutorial [here](https://youtu.be/AMp6hlA8xKA?si=xjD4v0etZFLrTz_J) )
+<br>
 Method: Encode given data and input question with **paraphrase-albert-small-v2**, then using **cosine similarity** to findout the most similarity question. Then give back the corresponding answer.
 # Future work
 Apply more and more models for comparison - learning purpose :)
